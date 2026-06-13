@@ -1,0 +1,179 @@
+2026-06-13 09:41:38,402 INFO [test01_register_login.py(setUp:19)] - 正在初始化session对象: <requests.sessions.Session object at 0x000001F8FC047410>
+2026-06-13 09:41:38,403 INFO [api_register_login.py(api_img_code:22)] - 正在调用获取图片验证码接口，请求方法: get 请求url: http://121.43.169.97:8081/common/public/verifycode1/0.123
+2026-06-13 09:41:38,508 INFO [test01_register_login.py(test01_img_code:35)] - 执行图片验证码响应状态码为: 200
+2026-06-13 09:41:38,508 INFO [test01_register_login.py(test01_img_code:38)] - 执行图片验证码断言通过
+2026-06-13 09:41:38,508 INFO [test01_register_login.py(tearDown:26)] - 正在关闭session对象: <requests.sessions.Session object at 0x000001F8FC047410>
+2026-06-13 09:41:38,510 INFO [test01_register_login.py(setUp:19)] - 正在初始化session对象: <requests.sessions.Session object at 0x000001F8FBDF4CB0>
+2026-06-13 09:41:38,510 INFO [api_register_login.py(api_img_code:22)] - 正在调用获取图片验证码接口，请求方法: get 请求url: http://121.43.169.97:8081/common/public/verifycode1/123
+2026-06-13 09:41:38,633 INFO [test01_register_login.py(test01_img_code:35)] - 执行图片验证码响应状态码为: 200
+2026-06-13 09:41:38,633 INFO [test01_register_login.py(test01_img_code:38)] - 执行图片验证码断言通过
+2026-06-13 09:41:38,634 INFO [test01_register_login.py(tearDown:26)] - 正在关闭session对象: <requests.sessions.Session object at 0x000001F8FBDF4CB0>
+2026-06-13 09:41:38,634 INFO [test01_register_login.py(setUp:19)] - 正在初始化session对象: <requests.sessions.Session object at 0x000001F8FBE1BE00>
+2026-06-13 09:41:38,634 INFO [api_register_login.py(api_img_code:22)] - 正在调用获取图片验证码接口，请求方法: get 请求url: http://121.43.169.97:8081/common/public/verifycode1/
+2026-06-13 09:41:38,736 INFO [test01_register_login.py(test01_img_code:35)] - 执行图片验证码响应状态码为: 404
+2026-06-13 09:41:38,736 INFO [test01_register_login.py(test01_img_code:38)] - 执行图片验证码断言通过
+2026-06-13 09:41:38,737 INFO [test01_register_login.py(tearDown:26)] - 正在关闭session对象: <requests.sessions.Session object at 0x000001F8FBE1BE00>
+2026-06-13 09:41:38,737 INFO [test01_register_login.py(setUp:19)] - 正在初始化session对象: <requests.sessions.Session object at 0x000001F8FC047FE0>
+2026-06-13 09:41:38,737 INFO [api_register_login.py(api_img_code:22)] - 正在调用获取图片验证码接口，请求方法: get 请求url: http://121.43.169.97:8081/common/public/verifycode1/123hello
+2026-06-13 09:41:38,865 INFO [test01_register_login.py(test01_img_code:35)] - 执行图片验证码响应状态码为: 400
+2026-06-13 09:41:38,866 INFO [test01_register_login.py(test01_img_code:38)] - 执行图片验证码断言通过
+2026-06-13 09:41:38,866 INFO [test01_register_login.py(tearDown:26)] - 正在关闭session对象: <requests.sessions.Session object at 0x000001F8FC047FE0>
+2026-06-13 09:41:38,866 INFO [test01_register_login.py(setUp:19)] - 正在初始化session对象: <requests.sessions.Session object at 0x000001F8FC0477D0>
+2026-06-13 09:41:38,866 INFO [api_register_login.py(api_img_code:22)] - 正在调用获取图片验证码接口，请求方法: get 请求url: http://121.43.169.97:8081/common/public/verifycode1/123
+2026-06-13 09:41:38,977 INFO [api_register_login.py(api_phone_code:34)] - 正在调用获取短信验证码接口，请求方法: post 请求url: http://121.43.169.97:8081/member/public/sendSms 请求参数: {'phone': '15252292775', 'imgVerifyCode': 8888, 'type': 'reg'}
+2026-06-13 09:41:39,051 INFO [test01_register_login.py(test02_phone_code:53)] - 执行接口结果为: {"status":200,"description":"短信发送成功"}
+2026-06-13 09:41:39,051 INFO [test01_register_login.py(test02_phone_code:56)] - 执行断言通过！
+2026-06-13 09:41:39,051 INFO [test01_register_login.py(tearDown:26)] - 正在关闭session对象: <requests.sessions.Session object at 0x000001F8FC0477D0>
+2026-06-13 09:41:39,051 INFO [test01_register_login.py(setUp:19)] - 正在初始化session对象: <requests.sessions.Session object at 0x000001F8FBDF4C80>
+2026-06-13 09:41:39,051 INFO [api_register_login.py(api_img_code:22)] - 正在调用获取图片验证码接口，请求方法: get 请求url: http://121.43.169.97:8081/common/public/verifycode1/123
+2026-06-13 09:41:39,178 INFO [api_register_login.py(api_phone_code:34)] - 正在调用获取短信验证码接口，请求方法: post 请求url: http://121.43.169.97:8081/member/public/sendSms 请求参数: {'phone': '15252292775', 'imgVerifyCode': 8889, 'type': 'reg'}
+2026-06-13 09:41:39,240 INFO [test01_register_login.py(test02_phone_code:53)] - 执行接口结果为: {"status":100,"description":"图片验证码错误"}
+2026-06-13 09:41:39,240 INFO [test01_register_login.py(test02_phone_code:56)] - 执行断言通过！
+2026-06-13 09:41:39,240 INFO [test01_register_login.py(tearDown:26)] - 正在关闭session对象: <requests.sessions.Session object at 0x000001F8FBDF4C80>
+2026-06-13 09:41:39,240 INFO [test01_register_login.py(setUp:19)] - 正在初始化session对象: <requests.sessions.Session object at 0x000001F8FB5A63C0>
+2026-06-13 09:41:39,240 INFO [api_register_login.py(api_img_code:22)] - 正在调用获取图片验证码接口，请求方法: get 请求url: http://121.43.169.97:8081/common/public/verifycode1/123
+2026-06-13 09:41:39,341 INFO [api_register_login.py(api_phone_code:34)] - 正在调用获取短信验证码接口，请求方法: post 请求url: http://121.43.169.97:8081/member/public/sendSms 请求参数: {'phone': '15252292776', 'imgVerifyCode': 8888, 'type': 'reg'}
+2026-06-13 09:41:39,401 INFO [api_register_login.py(api_register:49)] - 正在调用注册接口，请求方法: post 请求url: http://121.43.169.97:8081/member/public/reg 请求参数: {'phone': '15252292776', 'password': 'test123', 'verifycode': 8888, 'phone_code': 666666, 'dy_server': 'on', 'invite_phone': ''}
+2026-06-13 09:41:39,452 INFO [test01_register_login.py(test03_register:73)] - 执行接口结果为: {"status":100,"description":"手机已存在!"}
+2026-06-13 09:41:39,452 ERROR [test01_register_login.py(test03_register:79)] - 断言失败，原因: '注册成功' not found in '{"status":100,"description":"手机已存在!"}'
+2026-06-13 09:41:39,455 INFO [test01_register_login.py(tearDown:26)] - 正在关闭session对象: <requests.sessions.Session object at 0x000001F8FB5A63C0>
+2026-06-13 09:41:39,455 INFO [test01_register_login.py(setUp:19)] - 正在初始化session对象: <requests.sessions.Session object at 0x000001F8D0B9F800>
+2026-06-13 09:41:39,455 INFO [api_register_login.py(api_img_code:22)] - 正在调用获取图片验证码接口，请求方法: get 请求url: http://121.43.169.97:8081/common/public/verifycode1/123
+2026-06-13 09:41:39,567 INFO [api_register_login.py(api_phone_code:34)] - 正在调用获取短信验证码接口，请求方法: post 请求url: http://121.43.169.97:8081/member/public/sendSms 请求参数: {'phone': '15252292777', 'imgVerifyCode': 8889, 'type': 'reg'}
+2026-06-13 09:41:39,622 INFO [api_register_login.py(api_register:49)] - 正在调用注册接口，请求方法: post 请求url: http://121.43.169.97:8081/member/public/reg 请求参数: {'phone': '15252292777', 'password': 'test123', 'verifycode': 8889, 'phone_code': 666666, 'dy_server': 'on', 'invite_phone': ''}
+2026-06-13 09:41:39,676 INFO [test01_register_login.py(test03_register:73)] - 执行接口结果为: {"status":100,"description":"验证码错误!"}
+2026-06-13 09:41:39,676 INFO [test01_register_login.py(test03_register:76)] - 执行断言通过！
+2026-06-13 09:41:39,676 INFO [test01_register_login.py(tearDown:26)] - 正在关闭session对象: <requests.sessions.Session object at 0x000001F8D0B9F800>
+2026-06-13 09:41:39,676 INFO [test01_register_login.py(setUp:19)] - 正在初始化session对象: <requests.sessions.Session object at 0x000001F8FBE4CBF0>
+2026-06-13 09:41:39,676 INFO [api_register_login.py(api_img_code:22)] - 正在调用获取图片验证码接口，请求方法: get 请求url: http://121.43.169.97:8081/common/public/verifycode1/123
+2026-06-13 09:41:39,786 INFO [api_register_login.py(api_phone_code:34)] - 正在调用获取短信验证码接口，请求方法: post 请求url: http://121.43.169.97:8081/member/public/sendSms 请求参数: {'phone': '15252292777', 'imgVerifyCode': 8888, 'type': 'reg'}
+2026-06-13 09:41:39,850 INFO [api_register_login.py(api_register:49)] - 正在调用注册接口，请求方法: post 请求url: http://121.43.169.97:8081/member/public/reg 请求参数: {'phone': '15252292777', 'password': 'test123', 'verifycode': 8888, 'phone_code': 666667, 'dy_server': 'on', 'invite_phone': ''}
+2026-06-13 09:41:39,903 INFO [test01_register_login.py(test03_register:73)] - 执行接口结果为: {"status":100,"description":"手机已存在!"}
+2026-06-13 09:41:39,903 ERROR [test01_register_login.py(test03_register:79)] - 断言失败，原因: '验证码错误' not found in '{"status":100,"description":"手机已存在!"}'
+2026-06-13 09:41:39,903 INFO [test01_register_login.py(tearDown:26)] - 正在关闭session对象: <requests.sessions.Session object at 0x000001F8FBE4CBF0>
+2026-06-13 09:41:39,903 INFO [test01_register_login.py(setUp:19)] - 正在初始化session对象: <requests.sessions.Session object at 0x000001F8FC091FA0>
+2026-06-13 09:41:39,903 INFO [api_register_login.py(api_img_code:22)] - 正在调用获取图片验证码接口，请求方法: get 请求url: http://121.43.169.97:8081/common/public/verifycode1/123
+2026-06-13 09:41:40,016 INFO [api_register_login.py(api_phone_code:34)] - 正在调用获取短信验证码接口，请求方法: post 请求url: http://121.43.169.97:8081/member/public/sendSms 请求参数: {'phone': '15252292776', 'imgVerifyCode': 8888, 'type': 'reg'}
+2026-06-13 09:41:40,079 INFO [api_register_login.py(api_register:49)] - 正在调用注册接口，请求方法: post 请求url: http://121.43.169.97:8081/member/public/reg 请求参数: {'phone': '15252292776', 'password': 'test123', 'verifycode': 8888, 'phone_code': 666666, 'dy_server': 'on', 'invite_phone': ''}
+2026-06-13 09:41:40,132 INFO [test01_register_login.py(test03_register:73)] - 执行接口结果为: {"status":100,"description":"手机已存在!"}
+2026-06-13 09:41:40,132 INFO [test01_register_login.py(test03_register:76)] - 执行断言通过！
+2026-06-13 09:41:40,132 INFO [test01_register_login.py(tearDown:26)] - 正在关闭session对象: <requests.sessions.Session object at 0x000001F8FC091FA0>
+2026-06-13 09:41:40,133 INFO [test01_register_login.py(setUp:19)] - 正在初始化session对象: <requests.sessions.Session object at 0x000001F8FB74A960>
+2026-06-13 09:41:40,133 INFO [api_register_login.py(api_login:60)] - 正在调用登录接口，请求方法: post 请求url: http://121.43.169.97:8081/member/public/login 请求参数: {'keywords': '15252292776', 'password': 'test123'}
+2026-06-13 09:41:40,287 INFO [test01_register_login.py(test04_login:107)] - 执行接口结果为: {"status":200,"description":"登录成功"}
+2026-06-13 09:41:40,287 INFO [test01_register_login.py(test04_login:110)] - 执行断言通过！
+2026-06-13 09:41:40,288 INFO [test01_register_login.py(tearDown:26)] - 正在关闭session对象: <requests.sessions.Session object at 0x000001F8FB74A960>
+2026-06-13 09:41:40,288 INFO [test01_register_login.py(setUp:19)] - 正在初始化session对象: <requests.sessions.Session object at 0x000001F8FC025D00>
+2026-06-13 09:41:40,288 INFO [api_register_login.py(api_login:60)] - 正在调用登录接口，请求方法: post 请求url: http://121.43.169.97:8081/member/public/login 请求参数: {'keywords': '15252292777', 'password': 'test123'}
+2026-06-13 09:41:40,470 INFO [test01_register_login.py(test04_login:107)] - 执行接口结果为: {"status":200,"description":"登录成功"}
+2026-06-13 09:41:40,471 ERROR [test01_register_login.py(test04_login:113)] - 断言失败，原因: '用户不存在' not found in '{"status":200,"description":"登录成功"}'
+2026-06-13 09:41:40,471 INFO [test01_register_login.py(tearDown:26)] - 正在关闭session对象: <requests.sessions.Session object at 0x000001F8FC025D00>
+2026-06-13 09:41:40,471 INFO [test01_register_login.py(setUp:19)] - 正在初始化session对象: <requests.sessions.Session object at 0x000001F8FC092000>
+2026-06-13 09:41:40,471 INFO [api_register_login.py(api_login:60)] - 正在调用登录接口，请求方法: post 请求url: http://121.43.169.97:8081/member/public/login 请求参数: {'keywords': '15252292776', 'password': ''}
+2026-06-13 09:41:40,588 INFO [test01_register_login.py(test04_login:107)] - 执行接口结果为: {"status":100,"description":"密码不能为空"}
+2026-06-13 09:41:40,588 INFO [test01_register_login.py(test04_login:110)] - 执行断言通过！
+2026-06-13 09:41:40,590 INFO [test01_register_login.py(tearDown:26)] - 正在关闭session对象: <requests.sessions.Session object at 0x000001F8FC092000>
+2026-06-13 09:41:40,590 INFO [test01_register_login.py(setUp:19)] - 正在初始化session对象: <requests.sessions.Session object at 0x000001F8FC090650>
+2026-06-13 09:41:40,590 INFO [api_register_login.py(api_login:60)] - 正在调用登录接口，请求方法: post 请求url: http://121.43.169.97:8081/member/public/login 请求参数: {'keywords': '15252292776', 'password': 'error123'}
+2026-06-13 09:41:40,700 INFO [api_register_login.py(api_login:60)] - 正在调用登录接口，请求方法: post 请求url: http://121.43.169.97:8081/member/public/login 请求参数: {'keywords': '15252292776', 'password': 'error123'}
+2026-06-13 09:41:40,759 INFO [api_register_login.py(api_login:60)] - 正在调用登录接口，请求方法: post 请求url: http://121.43.169.97:8081/member/public/login 请求参数: {'keywords': '15252292776', 'password': 'error123'}
+2026-06-13 09:42:40,821 INFO [api_register_login.py(api_login:60)] - 正在调用登录接口，请求方法: post 请求url: http://121.43.169.97:8081/member/public/login 请求参数: {'keywords': '15252292776', 'password': 'test123'}
+2026-06-13 09:42:40,999 INFO [test01_register_login.py(test04_login:100)] - 执行接口结果为: {"status":200,"description":"登录成功"}
+2026-06-13 09:42:40,999 INFO [test01_register_login.py(test04_login:103)] - 执行断言通过！
+2026-06-13 09:42:40,999 INFO [test01_register_login.py(tearDown:26)] - 正在关闭session对象: <requests.sessions.Session object at 0x000001F8FC090650>
+2026-06-13 09:42:40,999 INFO [test01_register_login.py(setUp:19)] - 正在初始化session对象: <requests.sessions.Session object at 0x000001F8FC093920>
+2026-06-13 09:42:40,999 INFO [api_register_login.py(api_login:60)] - 正在调用登录接口，请求方法: post 请求url: http://121.43.169.97:8081/member/public/login 请求参数: {'keywords': '15252292776', 'password': 'test123'}
+2026-06-13 09:42:41,160 INFO [api_register_login.py(api_login_status:66)] - 正在调用查询登录状态接口，请求方法: post 请求url: http://121.43.169.97:8081/member/public/islogin
+2026-06-13 09:42:41,213 INFO [test01_register_login.py(test05_login_status:126)] - 执行接口结果为: {"status":200,"description":"OK"}
+2026-06-13 09:42:41,213 INFO [test01_register_login.py(test05_login_status:129)] - 执行断言通过！
+2026-06-13 09:42:41,213 INFO [test01_register_login.py(tearDown:26)] - 正在关闭session对象: <requests.sessions.Session object at 0x000001F8FC093920>
+2026-06-13 09:42:41,214 INFO [test01_register_login.py(setUp:19)] - 正在初始化session对象: <requests.sessions.Session object at 0x000001F8FC093FB0>
+2026-06-13 09:42:41,214 INFO [api_register_login.py(api_login_status:66)] - 正在调用查询登录状态接口，请求方法: post 请求url: http://121.43.169.97:8081/member/public/islogin
+2026-06-13 09:42:41,341 INFO [test01_register_login.py(test05_login_status:126)] - 执行接口结果为: {"status":250,"description":"您未登陆！"}
+2026-06-13 09:42:41,341 INFO [test01_register_login.py(test05_login_status:129)] - 执行断言通过！
+2026-06-13 09:42:41,342 INFO [test01_register_login.py(tearDown:26)] - 正在关闭session对象: <requests.sessions.Session object at 0x000001F8FC093FB0>
+2026-06-13 09:42:41,342 INFO [test02_approve_trust.py(setUp:16)] - 正在初始化session对象: <requests.sessions.Session object at 0x000001F8FBF89700>
+2026-06-13 09:42:41,344 INFO [api_register_login.py(api_login:60)] - 正在调用登录接口，请求方法: post 请求url: http://121.43.169.97:8081/member/public/login 请求参数: {'keywords': '15252292771', 'password': 'test123'}
+2026-06-13 09:42:41,598 INFO [test02_approve_trust.py(test01_approve:32)] - 接口执行结果为: {"status":200,"data":{"card_id":"140****648","realname":"张**"},"description":"提交成功!"}
+2026-06-13 09:42:41,599 INFO [test02_approve_trust.py(test01_approve:35)] - 断言通过！
+2026-06-13 09:42:41,600 INFO [test02_approve_trust.py(tearDown:25)] - 正在关闭session对象: <requests.sessions.Session object at 0x000001F8FBF89700>
+2026-06-13 09:42:41,600 INFO [test02_approve_trust.py(setUp:16)] - 正在初始化session对象: <requests.sessions.Session object at 0x000001F8F9046C90>
+2026-06-13 09:42:41,600 INFO [api_register_login.py(api_login:60)] - 正在调用登录接口，请求方法: post 请求url: http://121.43.169.97:8081/member/public/login 请求参数: {'keywords': '15252292771', 'password': 'test123'}
+2026-06-13 09:42:41,833 INFO [test02_approve_trust.py(test02_approve_status:47)] - 接口执行结果为: <!doctype html><html lang="en"><head><title>HTTP Status 404 – Not Found</title><style type="text/css">body {font-family:Tahoma,Arial,sans-serif;} h1, h2, h3, b {color:white;background-color:#525D76;} h1 {font-size:22px;} h2 {font-size:16px;} h3 {font-size:14px;} p {font-size:12px;} a {color:black;} .line {height:1px;background-color:#525D76;border:none;}</style></head><body><h1>HTTP Status 404 – Not Found</h1><hr class="line" /><p><b>Type</b> Status Report</p><p><b>Message</b> /member/realname/getapprove</p><p><b>Description</b> The origin server did not find a current representation for the target resource or is not willing to disclose that one exists.</p><hr class="line" /><h3>Apache Tomcat/7.0.99</h3></body></html>
+2026-06-13 09:42:41,833 INFO [test02_approve_trust.py(test02_approve_status:50)] - 断言通过！
+2026-06-13 09:42:41,833 INFO [test02_approve_trust.py(tearDown:25)] - 正在关闭session对象: <requests.sessions.Session object at 0x000001F8F9046C90>
+2026-06-13 09:42:41,834 INFO [test02_approve_trust.py(setUp:16)] - 正在初始化session对象: <requests.sessions.Session object at 0x000001F8FB5D8230>
+2026-06-13 09:42:41,834 INFO [api_register_login.py(api_login:60)] - 正在调用登录接口，请求方法: post 请求url: http://121.43.169.97:8081/member/public/login 请求参数: {'keywords': '15252292771', 'password': 'test123'}
+2026-06-13 09:42:42,079 INFO [test02_approve_trust.py(test03_trust:62)] - 接口执行结果为: {'status': 200, 'description': {'form': "<form name='easypaysubmit' id='easypaysubmit' target='_blank' method='post' action='http://121.43.169.97:8000/muser/publicRequests'><input name='Version' type='hidden' value='10'/><input name='CmdId' type='hidden' value='UserRegister'/><input name='MerCustId' type='hidden' value='6000060007313892'/><input name='BgRetUrl' type='hidden' value='https://www.baidu.com/'/><input name='RetUrl' type='hidden' value='http://121.43.169.97:8081/trust/chinapnr/register/return/26061309425447607103'/><input name='UsrId' type='hidden' value=''/><input name='UsrName' type='hidden' value=''/><input name='IdType' type='hidden' value='00'/><input name='IdNo' type='hidden' value='140404200605271212'/><input name='UsrMp' type='hidden' value='15252292771'/><input name='UsrEmail' type='hidden' value=''/><input name='MerPriv' type='hidden' value='26061309425447607103'/><input name='ChkValue' type='hidden' value='-101'/><input name='CharSet' type='hidden' value='UTF-8'/></form><script>document.forms['easypaysubmit'].submit();</script>"}}
+2026-06-13 09:42:42,080 INFO [test02_approve_trust.py(test03_trust:65)] - 断言通过！
+2026-06-13 09:42:42,597 INFO [test02_approve_trust.py(test03_trust:70)] - 接口执行结果为: UserRegister OK
+2026-06-13 09:42:42,597 INFO [test02_approve_trust.py(test03_trust:72)] - 断言通过！
+2026-06-13 09:42:42,597 INFO [test02_approve_trust.py(tearDown:25)] - 正在关闭session对象: <requests.sessions.Session object at 0x000001F8FB5D8230>
+2026-06-13 09:42:42,597 INFO [test02_approve_trust.py(setUp:16)] - 正在初始化session对象: <requests.sessions.Session object at 0x000001F8FB904230>
+2026-06-13 09:42:42,598 INFO [api_register_login.py(api_login:60)] - 正在调用登录接口，请求方法: post 请求url: http://121.43.169.97:8081/member/public/login 请求参数: {'keywords': '15252292771', 'password': 'test123'}
+2026-06-13 09:42:42,914 INFO [test02_approve_trust.py(test04_img_code:85)] - 接口执行结果为: ���� JFIF      �� C 		
+ $.' ",#(7),01444'9=82<.342�� C			2!!22222222222222222222222222222222222222222222222222��  $ d" ��           	
+�� �   } !1AQa"q2���#B��R��$3br�	
+%&'()*456789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz���������������������������������������������������������������������������        	
+�� �  w !1AQaq"2�B����	#3R�br�
+$4�%�&'()*56789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz��������������������������������������������������������������������������   ? �����}j�Ji�yWt����p��1���r�˦��}��ݝ��u\����ǩ=�e�o��v����}��j���v%�~����B���^?�C �(����Q��r&]GL��MN6,�V)dm�=0~`9�x'ֲ�i��q Rdf�;��NNx?�"iZ��<����t���I��2��/��A�r;�eXZ��i��jS��2FE�Ed0�B���z�9�%�5�)nd��O��0�@ۗ�$���gZ����tf���'rb}��s�~���л��jMhj[�S�M}ey$sMm<r/����OC�QXik��E}};Ld�YrF�`/8 �1��`�sh[�h��v�en^I7HI�s��#�<�:i�R�ؗ�)�?fߗ���i��wMs+�^F�Q� �v{�	���?_Ҵ��{=5�nf�̥�$�cӁ���c�:��Q%�K���=��{�NI���-����WG��C�wU�g�?���T��z�����#2Z�(A��q=��@�9y�f�p�i7��s���g�mŽƤU���\�W98 ��*�����(o�7��e� �v��<��ӊl���I�V�C�ʾR��N�z� �=(������
+6*���
+*Qw,5�2�$��
+�ܒ���R�
+x�H�>��X_M��i��m�e��B>p��9�J��|ϛ�c��ߧ�u��KRnӾ��5	�^h X4}�<�p�q��9� �s~����g�]�XFS`�rO# }rp 8ب��ȷ�1���.�Y�1�{�e(Z��9�?Q��,���ѧ�rRH''z�� �T2�ڞ���5���ΡЙ==�2k��$i��k`�͸�=�����5T��u�I!@!	 ���  x���Zi��L�V�8#WXe��0y�Sר�C�Wc�F����C�1X�zT7����oo1��'o�͓��q��i�ZE�����ㄷrXgI�#��yO��=��l�[I}{x��|�ʛ�{��S��YZ���y�����M���}~L��^������,����3�U��ֳ�Aes<v�V��{Y7��~}�L�K[��w�u!�) �G� ^�xf����f�N77`�Ԏ�}�櫪�m�ŬU�Y&����h�9��[h�-���b8�0��^+BZ(��q�_͸��6�3�8�8�:�s��b[����6
+�ǖ���Ɗ*Sz]�;2�A=�jʾ����+h~�M9gb�I �����n �QU��/�'�1�g�$��3l�q� 1��?��-&�������2p�S8@yi d��f�*.�Kz�e��p�m�H��u��x�SQEY�QE QE QE��
+2026-06-13 09:42:42,914 INFO [test02_approve_trust.py(test04_img_code:88)] - 断言通过！
+2026-06-13 09:42:42,914 INFO [test02_approve_trust.py(tearDown:25)] - 正在关闭session对象: <requests.sessions.Session object at 0x000001F8FB904230>
+2026-06-13 09:42:42,914 INFO [test02_approve_trust.py(setUp:16)] - 正在初始化session对象: <requests.sessions.Session object at 0x000001F8FC0D01A0>
+2026-06-13 09:42:42,914 INFO [api_register_login.py(api_login:60)] - 正在调用登录接口，请求方法: post 请求url: http://121.43.169.97:8081/member/public/login 请求参数: {'keywords': '15252292771', 'password': 'test123'}
+2026-06-13 09:42:43,126 INFO [test02_approve_trust.py(test04_img_code:85)] - 接口执行结果为: ���� JFIF      �� C 		
+ $.' ",#(7),01444'9=82<.342�� C			2!!22222222222222222222222222222222222222222222222222��  $ d" ��           	
+�� �   } !1AQa"q2���#B��R��$3br�	
+%&'()*456789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz���������������������������������������������������������������������������        	
+�� �  w !1AQaq"2�B����	#3R�br�
+$4�%�&'()*56789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz��������������������������������������������������������������������������   ? �����[�3�$.��3\杧'�,�R�d�e���n�V8�$v�x�]$�$�R.��J���\��j�v����'�є�A?����>��q�WM'fEGf�������:��3��7"�s�	�㍹��iⷉ��T�5���@���	o��z���i����0��f=��H�q�ڷ�'O�.u&G`HV��I��%P`rUm\3�pV����)?v˧rmcY��H������L6�i����@���g?L�Q�a����[ٗ"a;+'����Qګ�[�:�\�{[�gh����r��� }    ���L�H�����s�A?ˎ���-���"N�6�f�^!��K����̿g���C�pK0����M��j�}��f����*��pN0;�� f��4���k�Z(w��'��p}^:z�K�wU����COy,T�$�JL�F3���M�C�L�ԾGgc��skhe�#��!#G�<�{j�֫q����21uy�,�p���I��?]�u�m��`��(��9��n���Z��:�3�]t��l�l�'�p;qXB�Mk��R�S���/�a�4�I���{}��I���#���C[q��~�q���w�_orA����xؼAg'�Qp�PC(�FT�vۜ����WU6�����y4ee�U�.%WC�������:�i�!Қi��H��D�qs|��jB��O��㹢�|Qj����P�A�IolJ�t����ړ�i�Y����9֣<h$��ven �$�����:�?�^�iچ�g{(��%�i,��͞S���y���w��8y�H�K�	�yQ�>z�d�T��2�O>�i{*)ڥy�;An=�H��^̉+���ɹ�x���A�i�Ȳ�3F������q��z׾����K;��e�*6�����?��|fE���d�`-��y!HF
+��� T��ČZB``y|��y�?�c�"�KT�����04��m'NK��P����PN�Ӄר�ǭW�%槯G�jh�6�a���v��q���=�+D��<���H ()����d���^)f���tYo%����9s��q����r���}I�K���0���-a��LUے�d�8��GL]:��:z�%ո�4 Ȅ*7Td�u���z¼�Ӛ�hg��݋"����s��A�Ld2OSR�s?��E���92J��s��=H#��8Y�`�|�E��Yǩjwm��ܦXc� LjI��8ޢ��em_TӬ���Y�y�h�8� d:�I�pH眀zWe���(��$��6U�0{c��Tօ�!9��a9�d�?�(�U�����m+XЄ�_j���IDETUb:gnq����]���g4�p���o0�7�I�=~��"I��O�4g(��#��rkr�s�yS��o.f�QEbh��d]��YD��K � ����t��/��|HY.g���!!�Y�w���Z�&�s	pl��Q�����h���"ś��$�5� �8��<9� k���oo|I���8-~��lC�ۿnrA!���Ҋ+ZI\�wv:m���P���#���3��t{U�(�w�QH�(��(���
+2026-06-13 09:42:43,127 INFO [test02_approve_trust.py(test04_img_code:88)] - 断言通过！
+2026-06-13 09:42:43,127 INFO [test02_approve_trust.py(tearDown:25)] - 正在关闭session对象: <requests.sessions.Session object at 0x000001F8FC0D01A0>
+2026-06-13 09:42:43,127 INFO [test02_approve_trust.py(setUp:16)] - 正在初始化session对象: <requests.sessions.Session object at 0x000001F8FC10D820>
+2026-06-13 09:42:43,127 INFO [api_register_login.py(api_login:60)] - 正在调用登录接口，请求方法: post 请求url: http://121.43.169.97:8081/member/public/login 请求参数: {'keywords': '15252292771', 'password': 'test123'}
+2026-06-13 09:42:43,346 INFO [test02_approve_trust.py(test04_img_code:85)] - 接口执行结果为: <!doctype html><html lang="en"><head><title>HTTP Status 404 – Not Found</title><style type="text/css">body {font-family:Tahoma,Arial,sans-serif;} h1, h2, h3, b {color:white;background-color:#525D76;} h1 {font-size:22px;} h2 {font-size:16px;} h3 {font-size:14px;} p {font-size:12px;} a {color:black;} .line {height:1px;background-color:#525D76;border:none;}</style></head><body><h1>HTTP Status 404 – Not Found</h1><hr class="line" /><p><b>Type</b> Status Report</p><p><b>Message</b> /common/public/verifycode/</p><p><b>Description</b> The origin server did not find a current representation for the target resource or is not willing to disclose that one exists.</p><hr class="line" /><h3>Apache Tomcat/7.0.99</h3></body></html>
+2026-06-13 09:42:43,347 INFO [test02_approve_trust.py(test04_img_code:88)] - 断言通过！
+2026-06-13 09:42:43,347 INFO [test02_approve_trust.py(tearDown:25)] - 正在关闭session对象: <requests.sessions.Session object at 0x000001F8FC10D820>
+2026-06-13 09:42:43,347 INFO [test02_approve_trust.py(setUp:16)] - 正在初始化session对象: <requests.sessions.Session object at 0x000001F8FB74B620>
+2026-06-13 09:42:43,347 INFO [api_register_login.py(api_login:60)] - 正在调用登录接口，请求方法: post 请求url: http://121.43.169.97:8081/member/public/login 请求参数: {'keywords': '15252292771', 'password': 'test123'}
+2026-06-13 09:42:43,569 INFO [test02_approve_trust.py(test04_img_code:85)] - 接口执行结果为: <!doctype html><html lang="en"><head><title>HTTP Status 400 – Bad Request</title><style type="text/css">body {font-family:Tahoma,Arial,sans-serif;} h1, h2, h3, b {color:white;background-color:#525D76;} h1 {font-size:22px;} h2 {font-size:16px;} h3 {font-size:14px;} p {font-size:12px;} a {color:black;} .line {height:1px;background-color:#525D76;border:none;}</style></head><body><h1>HTTP Status 400 – Bad Request</h1><hr class="line" /><p><b>Type</b> Status Report</p><p><b>Description</b> The server cannot or will not process the request due to something that is perceived to be a client error (e.g., malformed request syntax, invalid request message framing, or deceptive request routing).</p><hr class="line" /><h3>Apache Tomcat/7.0.99</h3></body></html>
+2026-06-13 09:42:43,569 INFO [test02_approve_trust.py(test04_img_code:88)] - 断言通过！
+2026-06-13 09:42:43,569 INFO [test02_approve_trust.py(tearDown:25)] - 正在关闭session对象: <requests.sessions.Session object at 0x000001F8FB74B620>
+2026-06-13 09:42:43,569 INFO [test02_approve_trust.py(setUp:16)] - 正在初始化session对象: <requests.sessions.Session object at 0x000001F8FC18F7A0>
+2026-06-13 09:42:43,569 INFO [api_register_login.py(api_login:60)] - 正在调用登录接口，请求方法: post 请求url: http://121.43.169.97:8081/member/public/login 请求参数: {'keywords': '15252292771', 'password': 'test123'}
+2026-06-13 09:42:43,871 INFO [test02_approve_trust.py(test05_recharge:103)] - 接口执行结果为: {'status': 200, 'description': {'form': "<form name='easypaysubmit' id='easypaysubmit' target='_blank' method='post' action='http://121.43.169.97:8000/muser/publicRequests'><input name='Version' type='hidden' value='10'/><input name='CmdId' type='hidden' value='NetSave'/><input name='MerCustId' type='hidden' value='6000060007313892'/><input name='UsrCustId' type='hidden' value='6020260613094254'/><input name='OrdId' type='hidden' value='26061309425626471803'/><input name='OrdDate' type='hidden' value='20260613'/><input name='GateBusiId' type='hidden' value='B2C'/><input name='OpenBankId' type='hidden' value=''/><input name='DcFlag' type='hidden' value='D'/><input name='TransAmt' type='hidden' value='1000.00'/><input name='RetUrl' type='hidden' value='http://121.43.169.97:8081/trust/chinapnr/recharge/return/26061309425626471803'/><input name='BgRetUrl' type='hidden' value='https://www.baidu.com/'/><input name='OpenAcctId' type='hidden' value=''/><input name='CertId' type='hidden' value=''/><input name='MerPriv' type='hidden' value='10403'/><input name='ChkValue' type='hidden' value='-101'/><input name='CharSet' type='hidden' value='UTF-8'/></form><script>document.forms['easypaysubmit'].submit();</script>"}}
+2026-06-13 09:42:43,872 INFO [test02_approve_trust.py(test05_recharge:107)] - 断言通过！
+2026-06-13 09:42:44,129 INFO [test02_approve_trust.py(test05_recharge:112)] - 接口执行结果为: NetSave OK
+2026-06-13 09:42:44,129 INFO [test02_approve_trust.py(test05_recharge:114)] - 断言通过！
+2026-06-13 09:42:44,129 INFO [test02_approve_trust.py(tearDown:25)] - 正在关闭session对象: <requests.sessions.Session object at 0x000001F8FC18F7A0>
+2026-06-13 09:42:44,129 INFO [test02_approve_trust.py(setUp:16)] - 正在初始化session对象: <requests.sessions.Session object at 0x000001F8FC145760>
+2026-06-13 09:42:44,129 INFO [api_register_login.py(api_login:60)] - 正在调用登录接口，请求方法: post 请求url: http://121.43.169.97:8081/member/public/login 请求参数: {'keywords': '15252292771', 'password': 'test123'}
+2026-06-13 09:42:44,413 INFO [test02_approve_trust.py(test05_recharge:103)] - 接口执行结果为: {'status': 100, 'description': '验证码错误'}
+2026-06-13 09:42:44,413 INFO [test02_approve_trust.py(tearDown:25)] - 正在关闭session对象: <requests.sessions.Session object at 0x000001F8FC145760>
+2026-06-13 09:42:44,414 INFO [test03_tender.py(setUp:16)] - 正在初始化session对象: <requests.sessions.Session object at 0x000001F8FC047350>
+2026-06-13 09:42:44,414 INFO [api_register_login.py(api_login:60)] - 正在调用登录接口，请求方法: post 请求url: http://121.43.169.97:8081/member/public/login 请求参数: {'keywords': '15252292771', 'password': 'test123'}
+2026-06-13 09:42:44,668 INFO [test03_tender.py(test01_tender:33)] - 接口执行结果为: {'status': 200, 'description': {'form': '<form name=\'easypaysubmit\' id=\'easypaysubmit\' target=\'_blank\' method=\'post\' action=\'http://121.43.169.97:8000/muser/publicRequests\'><input name=\'Version\' type=\'hidden\' value=\'20\'/><input name=\'CmdId\' type=\'hidden\' value=\'InitiativeTender\'/><input name=\'MerCustId\' type=\'hidden\' value=\'6000060007313892\'/><input name=\'OrdId\' type=\'hidden\' value=\'26061309425705963803\'/><input name=\'OrdDate\' type=\'hidden\' value=\'20260613\'/><input name=\'TransAmt\' type=\'hidden\' value=\'100.00\'/><input name=\'UsrCustId\' type=\'hidden\' value=\'6020260613094254\'/><input name=\'MaxTenderRate\' type=\'hidden\' value=\'0.20\'/><input name=\'BorrowerDetails\' type=\'hidden\' value=\'[{"BorrowerCustId":"6021234507160403","BorrowerAmt":"100.00","BorrowerRate":"0.90","ProId":""}]\'/><input name=\'IsFreeze\' type=\'hidden\' value=\'Y\'/><input name=\'FreezeOrdId\' type=\'hidden\' value=\'26061309425705963803\'/><input name=\'RetUrl\' type=\'hidden\' value=\'http://121.43.169.97:8081/trust/chinapnr/tender/return/26061309425705963803\'/><input name=\'BgRetUrl\' type=\'hidden\' value=\'https://www.baidu.com/\'/><input name=\'MerPriv\' type=\'hidden\' value=\'\'/><input name=\'ReqExt\' type=\'hidden\' value=\'\'/><input name=\'ChkValue\' type=\'hidden\' value=\'-101\'/><input name=\'CharSet\' type=\'hidden\' value=\'UTF-8\'/></form><script>document.forms[\'easypaysubmit\'].submit();</script>'}}
+2026-06-13 09:42:44,668 INFO [test03_tender.py(test01_tender:37)] - 断言通过！
+2026-06-13 09:42:44,973 INFO [test03_tender.py(test01_tender:42)] - 三方投资的结果为: InitiativeTender OK
+2026-06-13 09:42:44,973 INFO [test03_tender.py(test01_tender:44)] - 断言通过！
+2026-06-13 09:42:44,974 INFO [test03_tender.py(tearDown:25)] - 正在关闭session对象: <requests.sessions.Session object at 0x000001F8FC047350>
+2026-06-13 09:42:44,974 INFO [test03_tender.py(setUp:16)] - 正在初始化session对象: <requests.sessions.Session object at 0x000001F8FC0473B0>
+2026-06-13 09:42:44,974 INFO [api_register_login.py(api_login:60)] - 正在调用登录接口，请求方法: post 请求url: http://121.43.169.97:8081/member/public/login 请求参数: {'keywords': '15252292771', 'password': 'test123'}
+2026-06-13 09:42:45,181 INFO [test03_tender.py(test01_tender:33)] - 接口执行结果为: {'status': 100, 'description': '不是正确的金额'}
+2026-06-13 09:42:45,181 INFO [test03_tender.py(tearDown:25)] - 正在关闭session对象: <requests.sessions.Session object at 0x000001F8FC0473B0>
+2026-06-13 09:42:45,181 INFO [test04_tender_list.py(setUp:14)] - 正在初始化session对象: <requests.sessions.Session object at 0x000001F8F9056FC0>
+2026-06-13 09:42:45,181 INFO [api_register_login.py(api_img_code:22)] - 正在调用获取图片验证码接口，请求方法: get 请求url: http://121.43.169.97:8081/common/public/verifycode1/0.123
+2026-06-13 09:42:45,308 INFO [api_register_login.py(api_phone_code:34)] - 正在调用获取短信验证码接口，请求方法: post 请求url: http://121.43.169.97:8081/member/public/sendSms 请求参数: {'phone': '15252292778', 'imgVerifyCode': 8888, 'type': 'reg'}
+2026-06-13 09:42:45,384 INFO [api_register_login.py(api_register:49)] - 正在调用注册接口，请求方法: post 请求url: http://121.43.169.97:8081/member/public/reg 请求参数: {'phone': '15252292778', 'password': 'test123', 'verifycode': 8888, 'phone_code': 666666, 'dy_server': 'on', 'invite_phone': ''}
+2026-06-13 09:42:45,448 INFO [api_register_login.py(api_login:60)] - 正在调用登录接口，请求方法: post 请求url: http://121.43.169.97:8081/member/public/login 请求参数: {'keywords': '15252292778', 'password': 'test123'}
+2026-06-13 09:42:45,970 INFO [test04_tender_list.py(test01_tender_list:45)] - 三方开户的结果为: UserRegister OK
+2026-06-13 09:42:46,365 INFO [test04_tender_list.py(test01_tender_list:54)] - 三方充值的结果为: NetSave OK
+2026-06-13 09:42:46,763 INFO [test04_tender_list.py(test01_tender_list:61)] - 三方投资的结果为: InitiativeTender OK
+2026-06-13 09:42:46,763 INFO [test04_tender_list.py(test01_tender_list:63)] - 断言通过！
+2026-06-13 09:42:46,763 INFO [test04_tender_list.py(tearDown:24)] - 正在关闭session对象: <requests.sessions.Session object at 0x000001F8F9056FC0>
