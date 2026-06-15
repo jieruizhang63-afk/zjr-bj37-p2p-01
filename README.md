@@ -133,9 +133,9 @@
 # P2P金融理财平台测试项目
 
 ## Jenkins持续集成
+# 项目目录
 ![Jenkins](docs/Snipaste_2026-06-16_00-10-00.jpg)
+# JMeter生成测试报告
 ![Jenkins](docs/Snipaste_2026-06-16_00-11-14.jpg)
+# unittest生成测试报告
 ![Jenkins](docs/Snipaste_2026-06-16_00-11-49.jpg)
-
-```
-```
