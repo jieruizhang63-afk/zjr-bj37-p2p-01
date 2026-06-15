@@ -125,7 +125,7 @@
   
 ---
 
-## Jenkins持续集成
+## CI/CD持续集成
 ### 项目目录图
 ![Jenkins](docs/Snipaste_2026-06-16_00-10-00.jpg)
 ### JMeter生成测试报告
