@@ -130,5 +130,12 @@
 * 了解 Jenkins 持续集成及自动化测试执行流程
 * 掌握 Redis 在接口鉴权场景中的应用
 
+# P2P金融理财平台测试项目
+
+## Jenkins持续集成
+![Jenkins](docs/Snipaste_2026-06-16_00-10-00.jpg)
+![Jenkins](docs/Snipaste_2026-06-16_00-11-14.jpg)
+![Jenkins](docs/Snipaste_2026-06-16_00-11-49.jpg)
+
 ```
 ```
