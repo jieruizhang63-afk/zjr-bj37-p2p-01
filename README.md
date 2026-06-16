@@ -16,6 +16,7 @@
 * JMeter
 * Jenkins
 * MySQL
+* Git
   
 ---
 
