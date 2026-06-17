@@ -1,0 +1,20 @@
+# IDE
+.idea/
+
+# Python
+__pycache__/
+*.pyc
+<<<<<<< HEAD
+=======
+
+# Pytest
+.pytest_cache/
+
+# Log
+log/
+*.log
+
+# Report
+report/
+result.txt
+>>>>>>> 9700641 (add gitignore and remove cache files)
