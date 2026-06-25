@@ -3,6 +3,7 @@ import os
 from htmltestreport import HTMLTestReport
 import unittest
 
+os.makedirs('report', exist_ok=True)
 # 2、组合测试套件
 from config import DIR_PATH
 suite = unittest.defaultTestLoader.discover("./script")
