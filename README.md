@@ -128,8 +128,8 @@
 
 ## CI/CD持续集成
 ### 项目目录图
-![Jenkins](docs/Snipaste_2026-06-16_00-10-00.jpg)
+![Jenkins](docs/Jenkins-项目目录图.jpg)
 ### JMeter生成测试报告
-![Jenkins](docs/Snipaste_2026-06-16_00-11-14.jpg)
+![Jenkins](docs/Jenkins-JMeter生成测试报告.jpg)
 ### unittest生成测试报告
-![Jenkins](docs/Snipaste_2026-06-16_00-11-49.jpg)
+![Jenkins](docs/Jenkins-unittest生成测试报告.jpg)
