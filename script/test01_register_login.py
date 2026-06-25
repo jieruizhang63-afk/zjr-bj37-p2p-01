@@ -7,10 +7,10 @@ from api import log
 import time
 
 class TestRegisterLogin(unittest.TestCase):
-    # @classmethod
-    # def setUpClass(cls)->None:
-    #     # 清除测试数据
-    #     clear_data()
+    @classmethod
+    def setUpClass(cls)->None:
+        # 清除测试数据
+        clear_data()
 
     # 初始化
     def setUp(self) -> None:

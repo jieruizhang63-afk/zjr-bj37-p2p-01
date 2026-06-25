@@ -24,13 +24,13 @@
   "phone_code": [
     {
       "desc": "获取短信验证码成功",
-      "phone": "15252292775",
+      "phone": "15252292771",
       "imgVerifyCode": 8888,
       "expect_text": "发送成功"
     },
     {
       "desc": "获取短信验证码失败（图片验证码错误）",
-      "phone": "15252292775",
+      "phone": "15252292771",
       "imgVerifyCode": 8889,
       "expect_text": "图片验证码错误"
     }
@@ -38,7 +38,7 @@
   "register": [
     {
       "desc": "注册成功（必填参数）",
-      "phone": "15252292776",
+      "phone": "15252292771",
       "password": "test123",
       "verifycode": 8888,
       "phone_code": 666666,
@@ -46,7 +46,7 @@
     },
     {
       "desc": "注册失败（图片验证码错误）",
-      "phone": "15252292777",
+      "phone": "15252292772",
       "password": "test123",
       "verifycode": 8889,
       "phone_code": 666666,
@@ -54,7 +54,7 @@
     },
     {
       "desc": "注册失败（短信验证码错误）",
-      "phone": "15252292777",
+      "phone": "15252292772",
       "password": "test123",
       "verifycode": 8888,
       "phone_code": 666667,
@@ -62,7 +62,7 @@
     },
     {
       "desc": "注册失败（手机号已存在）",
-      "phone": "15252292776",
+      "phone": "15252292771",
       "password": "test123",
       "verifycode": 8888,
       "phone_code": 666666,
@@ -72,25 +72,25 @@
   "login": [
     {
       "desc": "登录成功",
-      "keywords": "15252292776",
+      "keywords": "15252292771",
       "password": "test123",
       "expect_text": "登录成功"
     },
     {
       "desc": "登录失败（用户不存在）",
-      "keywords": "15252292777",
+      "keywords": "15252292772",
       "password": "test123",
       "expect_text": "用户不存在"
     },
     {
       "desc": "登录失败（密码为空）",
-      "keywords": "15252292776",
+      "keywords": "15252292771",
       "password": "",
       "expect_text": "不能为空"
     },
     {
       "desc": "登录失败（解锁）",
-      "keywords": "15252292776",
+      "keywords": "15252292771",
       "password": "error123",
       "expect_text": "登录成功"
     }

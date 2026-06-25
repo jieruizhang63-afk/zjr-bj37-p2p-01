@@ -66,7 +66,7 @@ def conn_mysql(sql):
     cursor = None
     try:
         # 1、获取连接对象
-        conn = pymysql.connect(host="121.43.169.97", user="root", password="Itcast_p2p_20191228", db="czbk_member", charset="utf8", autocommit=True)
+        conn = pymysql.connect(host="121.43.169.97", user="student", password="P2P_student_2023", db="czbk_member", charset="utf8", autocommit=True)
         # 2、获取游标对象
         cursor = conn.cursor()
         # 3、执行sql语句
